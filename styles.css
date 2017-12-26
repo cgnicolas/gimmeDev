@@ -1,0 +1,60 @@
+body{
+  background-color: #BFB7B6;
+}
+footer {
+  background-color:#435058;
+}
+footer .row {
+  min-height: 400px;
+}
+.navbar-default {
+  background-color: #435058;
+  margin: 0;
+  height: 65px;
+}
+.navbar-default .container {
+  margin-top: 5px;
+}
+
+.navbar-default .navbar-collapse {
+  background-color: #435058;
+}
+
+.navbar-default .navbar-brand{
+  color: white;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: white;
+}
+
+
+.jumbotron{
+  text-align: center;
+  height: 700px;
+}
+.jumbotron h1 {
+  padding-top: 15%;
+}
+
+.app {
+  text-align: center;
+}
+
+.row {
+  min-height: 600px;
+  padding-top: 10%;
+  border: 1px solid black;
+}
+.description {
+}
+.questions {
+  text-align: left;
+}
+
+.description {
+  text-align: center;
+}
+.faq {
+  text-align: center;
+}
