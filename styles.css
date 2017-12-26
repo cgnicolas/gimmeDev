@@ -1,4 +1,10 @@
-
+body{
+  font-family: Montserrat;
+  font-size: 18px;
+}
+h1{
+  font-weight: 700;
+}
 footer {
   background-color:#435058;
   height: 65px;
@@ -13,6 +19,7 @@ footer p {
   color: white;
   margin-left: 10px;
 }
+
 
 .fa{
   font-size: 30px;
@@ -31,6 +38,7 @@ footer p {
   background: red;
   background-color: #435058;
   border:none;
+  font-size:16px;
 }
 .navbar-default .container {
   margin-top: 5px;
@@ -38,7 +46,7 @@ footer p {
 
 .navbar-default .navbar-brand{
   color: #DCF763;
-  font-size: 2em;
+  font-size: 1.7em;
 }
 
 .navbar-default .navbar-brand:hover{
@@ -66,6 +74,7 @@ footer p {
 
 .rowWrapOther{
   background-color: #848C8E;
+  color:white;
 }
 
 .navbar-default .navbar-collapse {
@@ -94,6 +103,7 @@ footer p {
   padding-top: 50px;
   min-height: 500px;
   padding-bottom: 50px;
+
 }
 
 .questions {
