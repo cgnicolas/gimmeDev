@@ -23,7 +23,7 @@ footer p {
 
 .btn-lg {
   background-color: #DCF763;
-  color: #848C8E;
+  color: #BFB7B6;
   font-weight: 700;
 }
 
@@ -79,7 +79,7 @@ footer p {
 }
 .rowWrapOther{
   background-color: #435058;
-  color:#F1F2EE;
+  color:#BFB7B6;
 }
 
 .navbar-default .navbar-collapse {
@@ -126,6 +126,7 @@ footer p {
   text-align: center;
 }
 
-.leftFooter{
+.leftFooter p{
   float:left;
+  color: #BFB7B6;
 }
