@@ -1,31 +1,80 @@
-body{
-  background-color: #BFB7B6;
-}
+
 footer {
   background-color:#435058;
+  height: 65px;
 }
 footer .row {
-  min-height: 400px;
+  min-height: 65px;
+  padding-top:21px;
+  padding-bottom: 0;
+}
+footer p {
+  float: right;
+  color: white;
+  margin-left: 10px;
+}
+
+.fa{
+  font-size: 30px;
+  color: #BFB7B6;
+  transition: .2s ease-out;
+}
+.fa:hover{
+  color:white;
+}
+.container .row h1 {
+  margin-bottom: 30px;
 }
 .navbar-default {
-  background-color: #435058;
   margin: 0;
   height: 65px;
+  background: red;
+  background-color: #435058;
+  border:none;
 }
 .navbar-default .container {
   margin-top: 5px;
 }
 
-.navbar-default .navbar-collapse {
-  background-color: #435058;
+.navbar-default .navbar-brand{
+  color: #DCF763;
+  font-size: 2em;
 }
 
-.navbar-default .navbar-brand{
-  color: white;
+.navbar-default .navbar-brand:hover{
+  color: #DCF763;
 }
 
 .navbar-default .navbar-nav>li>a {
+  color: #DCF763;
+  transition: .2s ease-out;
+}
+
+.navbar-default .navbar-nav>li>a:hover{
   color: white;
+}
+
+
+.navbar-default .navbar-toggle{
+  transition: .5s ease-out;
+  border: none;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #DCF763;
+}
+
+.rowWrapOther{
+  background-color: #848C8E;
+}
+
+.navbar-default .navbar-collapse {
+  background-color: #435058;
+  border: none;
+}
+
+.dropdownClass {
+  background-color: #435058;
 }
 
 
@@ -42,12 +91,11 @@ footer .row {
 }
 
 .row {
-  min-height: 600px;
-  padding-top: 10%;
-  border: 1px solid black;
+  padding-top: 50px;
+  min-height: 500px;
+  padding-bottom: 50px;
 }
-.description {
-}
+
 .questions {
   text-align: left;
 }
@@ -57,4 +105,8 @@ footer .row {
 }
 .faq {
   text-align: center;
+}
+
+.leftFooter{
+  float:left;
 }
