@@ -1,6 +1,7 @@
 body{
   font-family: Montserrat;
   font-size: 18px;
+  background-color: #848C8E;
 }
 h1{
   font-weight: 700;
@@ -20,6 +21,11 @@ footer p {
   margin-left: 10px;
 }
 
+.btn-lg {
+  background-color: #DCF763;
+  color: #848C8E;
+  font-weight: 700;
+}
 
 .fa{
   font-size: 30px;
@@ -71,10 +77,9 @@ footer p {
 .navbar-default .navbar-toggle .icon-bar {
   background-color: #DCF763;
 }
-
 .rowWrapOther{
-  background-color: #848C8E;
-  color:white;
+  background-color: #435058;
+  color:#F1F2EE;
 }
 
 .navbar-default .navbar-collapse {
@@ -88,8 +93,12 @@ footer p {
 
 
 .jumbotron{
+  color: #F1F2EE;
   text-align: center;
   height: 700px;
+  background-image: url(https://images.unsplash.com/photo-1495980235259-b0bfb6430c6d?auto=format&fit=crop&w=1950&q=80);
+  background-size: cover;
+  background-position: center;
 }
 .jumbotron h1 {
   padding-top: 15%;
